@@ -1,0 +1,13 @@
+mkdir Cours
+mkdir COURS
+cd Cours
+mkdir Musique
+mkdir PhysiqueDesParticulesElementairesDuNeant
+cd ..
+touch coursnumero5000
+print
+cp Cours /Archives
+cd Archives
+mkdir A1
+mkdir A2
+print

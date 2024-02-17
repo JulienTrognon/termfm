@@ -1,0 +1,58 @@
+mkdir a
+mkdir b
+mkdir c
+
+cd b
+mkdir ba
+mkdir bb
+mkdir bc
+
+cd ..
+cd c
+mkdir ca
+mkdir cb
+
+cd cb
+mkdir cba
+mkdir cbb
+mkdir cbc
+
+cd cba
+mkdir abaa
+mkdir cbab
+mkdir cbac
+mkdir cbad
+
+cd cbad
+mkdir cbada
+mkdir cbadb
+
+cd cbadb
+touch euh
+
+cd ..
+cd ..
+
+cd cbab
+mkdir cbaba
+mkdir cbabb
+mkdir cbabc
+mkdir cbabd
+mkdir cbabe
+
+cd cbabd
+touch zzz
+
+cd ..
+cd ..
+cd ..
+cd ..
+
+print
+
+rm cb/cba
+
+print
+
+mv ca /a/ca
+print

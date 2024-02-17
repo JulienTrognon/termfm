@@ -1,0 +1,46 @@
+mkdir patate
+mkdir panais
+mkdir carotte
+pwd
+ls
+
+cd patate
+mkdir choux
+pwd
+ls
+
+cd choux
+touch aubergine
+pwd
+ls
+
+cd 
+pwd
+ls
+
+cd panais
+mkdir haricot
+mkdir bettrave
+ls
+
+cd haricot
+mkdir epinard
+ls
+
+cd epinard
+touch salade
+pwd
+cd ..
+ls
+
+
+
+mkdir ail
+cd ail
+mkdir persil
+pwd
+
+print 
+cd /patate
+rm /panais/haricot
+print

@@ -1,0 +1,21 @@
+Savoir comment marchent les fonctions de librairie suivantes :
+- fgets : prend la ligne au curseur d'un fichier et la renvoie comme char*. Si EOF renvoie EOF.
+- strcpy : le contenu de la zone mémoire en source dans la zone mémoire visée.
+- strtok : renvoie un char* contenant la ch de char avant le séparateur. puis remplace le séparateur par \0. Poursuit sa lecture à chaque appel avec NULL en argument.
+
+- malloc
+- realloc
+- free
+- (argc, argv)
+
+Savoir expliquer l'arbre et la liste chaînée :
+- comment brancher / débrancher un noeud avec un autre.
+- comment ajouter un nouveau noeud.
+- comment les fils sont stockés.
+
+Comprendre les fonctions qu'on a codées :
+- chaque commande (cd, pwd, mkdir etc...).
+- parse()
+- get_noeud()
+- add_fils()
+

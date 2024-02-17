@@ -1,0 +1,9 @@
+mkdir dossier1
+cd dossier1
+mkdir dossier2
+touch fic
+print
+mv fic dossier2/fic
+print
+mv dossier2 /dossier2
+print
